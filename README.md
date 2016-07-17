@@ -7,3 +7,11 @@ A tutorial from [Lets Code Javascript](http://www.letscodejavascript.com/v3/epis
 + Cross-Browser Testing
 + Test driven development
 
+#Required Prerequisites
+
+1. Node 0.12.4
+2. Git
+
+# To Build
+
+1. Run build, type 'node build.js'
