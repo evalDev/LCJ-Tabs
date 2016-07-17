@@ -8,9 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-evalDev:evalDev/LCJ-Tabs.git"
+    "url": "git@github.com:evalDev/LCJ-Tabs.git"
   },
   "author": "@evalDev",
   "license": "ISC",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "jake": "^8.0.12"
+  }
 }
