@@ -2,7 +2,7 @@
   "use strict";
 
   desc("Default Task");
-  task("default",[ "version"], function(){
+  task("default",[ "version", "lint"], function(){
     console.log("\n\nBuild OK!!");
   });
   desc("Check Node version");
@@ -15,4 +15,9 @@
     }
     console.log("Checking Node version: .");
   });
+  desc("JS Linting");
+  task("lint", function(){
+    console.log("Linting Javascipt .");
+    jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", { interactive: true}, complete);
+  },{async: true});
 }());
