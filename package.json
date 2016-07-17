@@ -1,0 +1,16 @@
+{
+  "name": "how2tabs",
+  "version": "0.0.1",
+  "description": "Lets Code Javascript Tutorial - Tabs",
+  "main": "Jakefile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-evalDev:evalDev/LCJ-Tabs.git"
+  },
+  "author": "@evalDev",
+  "license": "ISC",
+  "private": true
+}
