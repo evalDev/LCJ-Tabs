@@ -1,2 +1,4 @@
 # Javascript Tern Project
 .tern-project
+# NPM
+node_modules/**/.bin/
