@@ -13,6 +13,9 @@
   "author": "@evalDev",
   "license": "ISC",
   "private": true,
+  "engines": {
+    "node": "0.12.5"
+  },
   "devDependencies": {
     "jake": "^8.0.12"
   }
