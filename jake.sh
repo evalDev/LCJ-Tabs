@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-./node_modules/.bin/jake
+./node_modules/.bin/jake $*
