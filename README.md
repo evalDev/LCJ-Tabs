@@ -14,4 +14,4 @@ A tutorial from [Lets Code Javascript](http://www.letscodejavascript.com/v3/epis
 
 # To Build
 
-1. Run build, type 'node build.js'
+1. Run build, type './jake.sh'
