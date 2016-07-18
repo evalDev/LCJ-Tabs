@@ -29,6 +29,6 @@
   desc("JS Linting");
   task("lint", function(){
     console.log("Linting Javascipt .");
-    jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", { interactive: true}, complete);
+    jake.exec("node node_modules/jshint/bin/jshint Jakefile.js src/*.js", { interactive: true}, complete);
   },{async: true});
 }());
