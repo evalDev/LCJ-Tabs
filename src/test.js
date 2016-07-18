@@ -8,4 +8,6 @@ var test =(function(){
     add: add
   };
 }());
-exports.add = test.add;
+if (typeof module !== 'undefined' && module.exports) {
+  exports.add = test.add;
+}
