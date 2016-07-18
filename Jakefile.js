@@ -5,7 +5,7 @@
   //General Purpose Tasks
 
   desc("Default Task");
-  task("default",[ "version", "lint"], function(){
+  task("default",[ "version", "lint", "test"], function(){
     console.log("\n\nBuild OK!!");
   });
 
@@ -14,6 +14,12 @@
     console.log("Run http-server here");
     jake.exec("node node_modules/http-server/bin/http-server src", {interactive: true}, complete);
   });
+  
+  desc("Test JS");
+  task("test", function(){
+    console.log("Testing Javascript .");
+    jake.exec("node ./node_modules/jasmine/bin/jasmine.js spec/*.js", {interactive: true}, complete);
+  },{async: true});
   // Supporting Tasks
   
   desc("Check Node version");
