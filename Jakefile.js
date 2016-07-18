@@ -1,3 +1,4 @@
+/* globals desc: false, jake:false, task:false, complete: false, fail: false */
 (function(){
   "use strict";
 
